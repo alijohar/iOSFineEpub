@@ -1,0 +1,22 @@
+{
+  "name": "iOSFineEpub",
+  "version": "0.1.0",
+  "summary": "A short description of iOSFineEpub.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mehdi Sohrabi/iOSFineEpub",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mehdi Sohrabi": "mehdokwebmaster@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Mehdi Sohrabi/iOSFineEpub.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOSFineEpub/Classes/**/*"
+}

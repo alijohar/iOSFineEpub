@@ -1,0 +1,6 @@
+framework module iOSFineEpub {
+  umbrella header "iOSFineEpub-umbrella.h"
+
+  export *
+  module * { export * }
+}
