@@ -134,10 +134,16 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/iOSFineEpub/iOSFineEpub.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/objective-zip/objective_zip.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/iOSFineEpub/iOSFineEpub.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/objective-zip/objective_zip.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

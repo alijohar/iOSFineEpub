@@ -1,5 +1,11 @@
 PODS:
-  - iOSFineEpub (0.1.0)
+  - Fuzi (2.0.1)
+  - iOSFineEpub (0.1.0):
+    - Fuzi (~> 2.0.1)
+    - objective-zip (~> 1.0.5)
+    - SwiftSoup
+  - objective-zip (1.0.5)
+  - SwiftSoup (1.5.8)
 
 DEPENDENCIES:
   - iOSFineEpub (from `../`)
@@ -9,7 +15,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  iOSFineEpub: 275c9d2223e1d913410740960ff4af1e24ca3183
+  Fuzi: f64983dea705491d3aedd32351247a09523e7efd
+  iOSFineEpub: be4619e9b1f4d7961f377148dd64463738f1c700
+  objective-zip: 41b1408cebffceb6b9d15ad691506707e390d359
+  SwiftSoup: 86a1f5ad07b7e3d14ab1a9324a58c75ae2215e79
 
 PODFILE CHECKSUM: 73a64d498c7c5341e270bf370244299f47ef95f9
 
