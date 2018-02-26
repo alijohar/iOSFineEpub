@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FineEpub_Example' do
+  pod 'FineEpub', :path => '../'
+
+  target 'FineEpub_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
