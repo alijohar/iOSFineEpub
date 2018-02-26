@@ -1,0 +1,25 @@
+PODS:
+  - FineEpub (0.1.0):
+    - Fuzi (~> 2.0.1)
+    - objective-zip (~> 1.0.5)
+    - SwiftSoup
+  - Fuzi (2.0.1)
+  - objective-zip (1.0.5)
+  - SwiftSoup (1.6.1)
+
+DEPENDENCIES:
+  - FineEpub (from `../`)
+
+EXTERNAL SOURCES:
+  FineEpub:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FineEpub: 05a7f1b220174091dd755e2bc2314af232da47f2
+  Fuzi: f64983dea705491d3aedd32351247a09523e7efd
+  objective-zip: 41b1408cebffceb6b9d15ad691506707e390d359
+  SwiftSoup: 1eedf56f751b36035ae6c95562f86944c9cfafee
+
+PODFILE CHECKSUM: 490797015ff1efece09ed135206d564aaa6e4e58
+
+COCOAPODS: 1.4.0

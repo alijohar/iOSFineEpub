@@ -1,0 +1,37 @@
+{
+  "name": "FineEpub",
+  "version": "0.1.0",
+  "summary": "A short description of FineEpub.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mehdok/FineEpub",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mehdok": "mehdokwebmaster@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mehdok/FineEpub.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FineEpub/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "Fuzi": [
+      "~> 2.0.1"
+    ],
+    "objective-zip": [
+      "~> 1.0.5"
+    ],
+    "SwiftSoup": [
+
+    ]
+  }
+}

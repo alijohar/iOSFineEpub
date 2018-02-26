@@ -15,6 +15,9 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		76F1F40C06C096816B14C235 /* Pods_FineEpub_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7260B9B87C52279A6E560AE8 /* Pods_FineEpub_Example.framework */; };
 		8DBADE58CCA0003A24344243 /* Pods_FineEpub_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42071897FBC6A54EA791D857 /* Pods_FineEpub_Tests.framework */; };
+		E5BC29772043D7E300545631 /* pg56636-images.epub in Resources */ = {isa = PBXBuildFile; fileRef = E5BC29762043D7E300545631 /* pg56636-images.epub */; };
+		E5BC29792043E61400545631 /* arabic.epub in Resources */ = {isa = PBXBuildFile; fileRef = E5BC29782043E61400545631 /* arabic.epub */; };
+		E5BC297B2043E65200545631 /* wahid0.epub in Resources */ = {isa = PBXBuildFile; fileRef = E5BC297A2043E65200545631 /* wahid0.epub */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +44,14 @@
 		607FACE51AFB9204008FA782 /* FineEpub_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FineEpub_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		62BE36C86705F6CEE9D92562 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		657C76AAF73027171D883C01 /* FineEpub.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FineEpub.podspec; path = ../FineEpub.podspec; sourceTree = "<group>"; };
+		62BE36C86705F6CEE9D92562 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		657C76AAF73027171D883C01 /* FineEpub.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FineEpub.podspec; path = ../FineEpub.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7260B9B87C52279A6E560AE8 /* Pods_FineEpub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FineEpub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		897F15421BEC91FEE31D3CF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		897F15421BEC91FEE31D3CF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D83A57D12BD8321218CD2A27 /* Pods-FineEpub_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FineEpub_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FineEpub_Tests/Pods-FineEpub_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5BC29762043D7E300545631 /* pg56636-images.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pg56636-images.epub"; sourceTree = "<group>"; };
+		E5BC29782043E61400545631 /* arabic.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = arabic.epub; sourceTree = "<group>"; };
+		E5BC297A2043E65200545631 /* wahid0.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = wahid0.epub; sourceTree = "<group>"; };
 		EFB487D600B9DD20101CD955 /* Pods-FineEpub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FineEpub_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FineEpub_Example/Pods-FineEpub_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +110,9 @@
 		607FACD21AFB9204008FA782 /* Example for FineEpub */ = {
 			isa = PBXGroup;
 			children = (
+				E5BC29782043E61400545631 /* arabic.epub */,
+				E5BC297A2043E65200545631 /* wahid0.epub */,
+				E5BC29762043D7E300545631 /* pg56636-images.epub */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -249,7 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				E5BC29772043D7E300545631 /* pg56636-images.epub in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				E5BC29792043E61400545631 /* arabic.epub in Resources */,
+				E5BC297B2043E65200545631 /* wahid0.epub in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,10 +317,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FineEpub_Example/Pods-FineEpub_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FineEpub/FineEpub.framework",
+				"${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+				"${BUILT_PRODUCTS_DIR}/objective-zip/objective_zip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FineEpub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/objective_zip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,0 +1,6 @@
+framework module FineEpub {
+  umbrella header "FineEpub-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import FineEpub
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let path = Bundle.main.path(forResource: "wahid0", ofType: "epub")
+        let book = JSEpub(withBookPath: path!)
+        
+        print(book.getBookName())
     }
 
     override func didReceiveMemoryWarning() {
