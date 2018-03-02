@@ -13,9 +13,9 @@ public class ManifestItem: NSObject {
     private let XML_ATTRIBUTE_HREF = "href"
     private let XML_ATTRIBUTE_MEDIA_TYPE = "media-type"
     
-    public var href: String!
-    public var __id: String!
-    public var mediaType: String!
+    public private(set) var href: String!
+    public private(set) var __id: String!
+    public private(set) var mediaType: String!
     
     public init(withElement element: XMLElement, resolver: HrefResolver) {
         href = resolver.ToAbsolute(element.attr(XML_ATTRIBUTE_HREF)!)

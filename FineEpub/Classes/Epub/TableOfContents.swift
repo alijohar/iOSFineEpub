@@ -19,7 +19,7 @@ public class TableOfContents: NSObject {
     private let XML_ATTRIBUTE_PLAYORDER = "playOrder"
     private let XML_ATTRIBUTE_SCR = "src"
     
-    private var navPoints: [NavPoint]
+    public private(set) var navPoints: [NavPoint]
     
     private let currentDepth = 0
     private let supportedDepth = 1

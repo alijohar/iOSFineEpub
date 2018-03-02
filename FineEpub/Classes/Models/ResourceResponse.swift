@@ -8,9 +8,9 @@
 import UIKit
 
 public class ResourceResponse: NSObject {
-    var mimeType: String?
-    var data: Data?
-    var size: UInt64?
+    public var mimeType: String?
+    public var data: Data?
+    public var size: UInt64?
     
     public init(withMimeType mimeType: String?, data: Data?) {
         self.mimeType = mimeType

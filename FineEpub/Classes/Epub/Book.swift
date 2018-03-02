@@ -41,15 +41,14 @@ public class Book: NSObject {
     private let XML_METADATA_META = "meta";
     
     
-    private var zip: OZZipFile?
-    private var mTocID: String?
-    private var metadata: Metadata
-    private var spine: [ManifestItem]
-    private var manifest: Manifest
-    private var tableOfContents: TableOfContents
-    private var bookPath: String?
-    private var tocID: String?
-    
+    public private(set) var zip: OZZipFile?
+    public private(set) var mTocID: String?
+    public private(set) var metadata: Metadata
+    public private(set) var spine: [ManifestItem]
+    public private(set) var manifest: Manifest
+    public private(set) var tableOfContents: TableOfContents
+    public private(set) var bookPath: String?
+    public private(set) var tocID: String?
     public private(set) var opfFileName: String?
     
     public override init() {

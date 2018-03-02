@@ -8,8 +8,8 @@
 import UIKit
 
 public class Manifest: NSObject {
-    private var items: [ManifestItem]
-    private var idIndex: [String : ManifestItem]
+    public private(set) var items: [ManifestItem]
+    public private(set) var idIndex: [String : ManifestItem]
     
     public override init() {
         items = [ManifestItem]()
