@@ -9,8 +9,8 @@ import UIKit
 
 public class JSEpub: Book {
     
-    let CSS_NAME = "../css/MehdokStyle.css"
-    let JS_NAME = "../js/MehdokBridge.js"
+    public let CSS_NAME = "../css/MehdokStyle.css"
+    public let JS_NAME = "../js/MehdokBridge.js"
     
     var bookSize = -1
     

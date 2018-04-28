@@ -14,7 +14,7 @@ public protocol WebViewBridgeDelegate: class {
 }
 
 public class JSWebView: WKWebView, WKUIDelegate {
-    weak var webViewBridgeDelegate: WebViewBridgeDelegate? = nil
+    public weak var webViewBridgeDelegate: WebViewBridgeDelegate? = nil
     
     public override init(frame: CGRect, configuration: WKWebViewConfiguration) {
         super.init(frame: frame, configuration: configuration)

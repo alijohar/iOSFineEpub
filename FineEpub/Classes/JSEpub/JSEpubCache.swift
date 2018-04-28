@@ -11,10 +11,10 @@ protocol JSCacheDelegate: class {
     func handleRequest(_ request: URLRequest) -> CachedURLResponse
 }
 
-class LocalResource {
-    var name: String
-    var ext: String
-    var mimeType: String
+public class LocalResource {
+    public var name: String
+    public var ext: String
+    public var mimeType: String
     
     init(name: String, ext: String, mimeType: String) {
         self.name = name
@@ -23,16 +23,16 @@ class LocalResource {
     }
 }
 
-class FONT: LocalResource {}
-class CSS: LocalResource {}
-class JS: LocalResource {}
+public class FONT: LocalResource {}
+public class CSS: LocalResource {}
+public class JS: LocalResource {}
 
 public class JSEpubCache: URLCache {
     weak var cacheDelegate: JSCacheDelegate? = nil
     
-    var cachedFonts = [String : CachedURLResponse]()
-    var cachedCss = [String : CachedURLResponse]()
-    var cachedJs = [String : CachedURLResponse]()
+    public var cachedFonts = [String : CachedURLResponse]()
+    public var cachedCss = [String : CachedURLResponse]()
+    public var cachedJs = [String : CachedURLResponse]()
     
     let fonts: [FONT] = [FONT(name: "Mosawi", ext: "ttf", mimeType: "application/x-font-ttf"),
                          FONT(name: "nazanin", ext: "ttf", mimeType: "application/x-font-ttf"),
