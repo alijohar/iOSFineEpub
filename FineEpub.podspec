@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FineEpub'
-  s.version          = '0.1.0-beta4'
+  s.version          = '0.1.0-beta5'
   s.summary          = 'A Simple pub reader writer in Swift.'
 
 # This description is used to generate tags and improve search results.
@@ -28,6 +28,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/mehdok/iOSFineEpub.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => "$(SDKROOT)/usr/include/libxml2" }
+
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'FineEpub/Classes/**/*'
@@ -39,7 +41,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'Fuzi', '~> 2.0.1'
+  s.dependency 'Fuzi', '~> 2.0.2'
   s.dependency 'objective-zip', '~> 1.0.5'
   s.dependency 'SwiftSoup'
 end

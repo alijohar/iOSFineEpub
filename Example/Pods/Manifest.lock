@@ -1,25 +1,31 @@
 PODS:
-  - FineEpub (0.1.0):
-    - Fuzi (~> 2.0.1)
+  - FineEpub (0.1.0-beta4):
+    - Fuzi (~> 2.0.2)
     - objective-zip (~> 1.0.5)
     - SwiftSoup
-  - Fuzi (2.0.1)
+  - Fuzi (2.0.2)
   - objective-zip (1.0.5)
   - SwiftSoup (1.6.1)
 
 DEPENDENCIES:
   - FineEpub (from `../`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Fuzi
+    - objective-zip
+    - SwiftSoup
+
 EXTERNAL SOURCES:
   FineEpub:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  FineEpub: 05a7f1b220174091dd755e2bc2314af232da47f2
-  Fuzi: f64983dea705491d3aedd32351247a09523e7efd
+  FineEpub: cb54254ec42e1342890a9aee29f2db16bffaae9e
+  Fuzi: a890c1b79058033e1dcc7e14f9a62e0936e728ef
   objective-zip: 41b1408cebffceb6b9d15ad691506707e390d359
   SwiftSoup: 1eedf56f751b36035ae6c95562f86944c9cfafee
 
-PODFILE CHECKSUM: 490797015ff1efece09ed135206d564aaa6e4e58
+PODFILE CHECKSUM: e4504fd5ad2e8177030fb3517ae6f2e601d60ca8
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0

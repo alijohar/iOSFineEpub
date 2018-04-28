@@ -1,6 +1,6 @@
 {
   "name": "FineEpub",
-  "version": "0.1.0-beta3",
+  "version": "0.1.0-beta4",
   "summary": "A Simple pub reader writer in Swift.",
   "description": "A Simple pub reader writer in Swift and use javascript and css to show epubs.",
   "homepage": "https://github.com/mehdok/iOSFineEpub",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/mehdok/iOSFineEpub.git",
-    "tag": "0.1.0-beta3"
+    "tag": "0.1.0-beta4"
   },
   "platforms": {
     "ios": "10.0"
@@ -22,7 +22,7 @@
   "frameworks": "UIKit",
   "dependencies": {
     "Fuzi": [
-      "~> 2.0.1"
+      "~> 2.0.2"
     ],
     "objective-zip": [
       "~> 1.0.5"
