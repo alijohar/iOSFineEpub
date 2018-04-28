@@ -6,17 +6,18 @@
 //
 
 import UIKit
+import WebKit
 
 public protocol WebViewBridgeDelegate: class {
     func pageLoadFinished()
     func tapDetected()
 }
 
-public class JSWebView: UIWebView, UIWebViewDelegate {
+public class JSWebView: WKWebView, WKUIDelegate {
     weak var webViewBridgeDelegate: WebViewBridgeDelegate? = nil
     
-    public override init(frame: CGRect) {
-        super.init(frame: frame)
+    public override init(frame: CGRect, configuration: WKWebViewConfiguration) {
+        super.init(frame: frame, configuration: configuration)
         localInit()
     }
     
@@ -26,7 +27,7 @@ public class JSWebView: UIWebView, UIWebViewDelegate {
     }
     
     private func localInit() {
-        self.delegate = self
+        self.uiDelegate = self
     }
     
     // MARK: - UIWebViewDelegate

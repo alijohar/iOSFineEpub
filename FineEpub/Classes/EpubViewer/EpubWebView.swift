@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import WebKit
 public protocol LoadFinishDelegate: class {
     func pageLoadFinished()
 }
@@ -16,7 +16,7 @@ public protocol VerticalLoadDelegate: class {
     func toggleUI()
 }
 
-public class EpubWebView: UIWebView {
+public class EpubWebView:  WKWebView {
     var JSTapDetector: String? = nil
     var resourceCache = [String : CachedURLResponse]()
     var book: JSEpub?
@@ -24,11 +24,8 @@ public class EpubWebView: UIWebView {
     weak var loadFinishDelegate: LoadFinishDelegate? = nil
     weak var verticalLoadDelegate: VerticalLoadDelegate? = nil
     
-    
-    
-    public override init(frame: CGRect) {
-        super.init(frame: frame)
-        
+    public override init(frame: CGRect, configuration: WKWebViewConfiguration) {
+        super.init(frame: frame, configuration: configuration)
         localInit()
     }
     
@@ -39,10 +36,10 @@ public class EpubWebView: UIWebView {
     }
     
     public func localInit() {
-        self.delegate = self
+        self.uiDelegate = self
         
         // disable Zoom
-        self.scalesPageToFit = true
+//        self.scalesPageToFit = true
         self.isMultipleTouchEnabled = false
         
         // hide Scrollbars
@@ -92,15 +89,17 @@ public class EpubWebView: UIWebView {
         return uri.replacingCharacters(in: replaceRange, with: "")
     }
     
+    @available(iOS 9.0, *)
     public func loadResource(_ data: Data, MIMEType: String, textEncodingName: String, baseURL: URL) {
-        super.load(data, mimeType: MIMEType, textEncodingName: textEncodingName, baseURL: baseURL)
+        super.load(data, mimeType: MIMEType, characterEncodingName: textEncodingName, baseURL: baseURL)
     }
 }
 
-extension EpubWebView: UIWebViewDelegate {
+extension EpubWebView: WKUIDelegate {
     public func webViewDidFinishLoad(_ webView: UIWebView) {
-        stringByEvaluatingJavaScript(from: JSTapDetector!)
-        loadFinishDelegate?.pageLoadFinished()
+        evaluateJavaScript(JSTapDetector!) { (what, error) in
+            self.loadFinishDelegate?.pageLoadFinished()
+        }
     }
     
     public func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
