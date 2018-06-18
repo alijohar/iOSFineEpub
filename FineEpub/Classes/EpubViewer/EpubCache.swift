@@ -12,7 +12,7 @@ public protocol EpubCacheDelegate: class {
 }
 
 public class EpubCache: URLCache {
-    weak var delegate: EpubCacheDelegate? = nil
+    public weak var delegate: EpubCacheDelegate? = nil
     
     public override func cachedResponse(for request: URLRequest) -> CachedURLResponse? {
         return delegate?.handleRequest(request)

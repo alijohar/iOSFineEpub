@@ -23,7 +23,7 @@ public class TableOfContents: NSObject {
     
     private let currentDepth = 0
     private let supportedDepth = 1
-    private var hrefResolver: HrefResolver? = nil
+    public var hrefResolver: HrefResolver? = nil
     
     public override init() {
         navPoints = [NavPoint]()

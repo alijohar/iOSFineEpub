@@ -1,17 +1,23 @@
 //
 //  JSWebView.swift
-//  FineEpub
+//  iOSFineEpub
 //
-//  Created by Mehdi Sohrabi on 6/18/18.
+//  Created by Mehdi Sohrabi on 2/20/18.
 //
 
 import UIKit
+import WebKit
 
-public class JSWebView: UIWebView, UIWebViewDelegate {
+public protocol WebViewBridgeDelegate: class {
+    func pageLoadFinished()
+    func tapDetected()
+}
+
+public class WKJSWebView: WKWebView, WKUIDelegate {
     public weak var webViewBridgeDelegate: WebViewBridgeDelegate? = nil
     
-    public override init(frame: CGRect) {
-        super.init(frame: frame)
+    public override init(frame: CGRect, configuration: WKWebViewConfiguration) {
+        super.init(frame: frame, configuration: configuration)
         localInit()
     }
     
@@ -21,7 +27,7 @@ public class JSWebView: UIWebView, UIWebViewDelegate {
     }
     
     private func localInit() {
-        self.delegate = self
+        self.uiDelegate = self
     }
     
     // MARK: - UIWebViewDelegate
@@ -39,4 +45,3 @@ public class JSWebView: UIWebView, UIWebViewDelegate {
         return true
     }
 }
-
