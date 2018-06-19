@@ -237,16 +237,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0085DD80045E55587F52F1E8945F679A /* inffast.c */ = {isa = PBXFileReference; includeInIndex = 1; name = inffast.c; path = ZLib/inffast.c; sourceTree = "<group>"; };
+		0085DD80045E55587F52F1E8945F679A /* inffast.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = inffast.c; path = ZLib/inffast.c; sourceTree = "<group>"; };
 		01F360262C393CDCDB77B5D3039EF5E2 /* Fuzi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fuzi-dummy.m"; sourceTree = "<group>"; };
 		0261CCC3941EB0E1AD73BE7E2274E50A /* objective_zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = objective_zip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D117909FB3490690D10CBBE83CAB8A /* OZFileInZipInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OZFileInZipInfo.h; path = "Objective-Zip/OZFileInZipInfo.h"; sourceTree = "<group>"; };
 		030218F51BEC44914A22529E9D5AA0A9 /* SwiftSoup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-prefix.pch"; sourceTree = "<group>"; };
 		034504A01202D9E639016939546D8062 /* TableOfContents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableOfContents.swift; sourceTree = "<group>"; };
-		03D038D23B1851B34A717638A6FA3EBF /* Fuzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fuzi.framework; path = Fuzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		045B1CFE79C204E2D105AB5524F485EE /* gzclose.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gzclose.c; path = ZLib/gzclose.c; sourceTree = "<group>"; };
+		03D038D23B1851B34A717638A6FA3EBF /* Fuzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fuzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		045B1CFE79C204E2D105AB5524F485EE /* gzclose.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gzclose.c; path = ZLib/gzclose.c; sourceTree = "<group>"; };
 		056EE373BFD94C02E8003EBF6EFD1B8A /* gzguts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gzguts.h; path = ZLib/gzguts.h; sourceTree = "<group>"; };
-		05BD11D6C33724C7C7F1AAE8F1FED078 /* gzlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gzlib.c; path = ZLib/gzlib.c; sourceTree = "<group>"; };
+		05BD11D6C33724C7C7F1AAE8F1FED078 /* gzlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gzlib.c; path = ZLib/gzlib.c; sourceTree = "<group>"; };
 		07F107BBBA4A09039786DC7306F43B13 /* StringUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtil.swift; path = Sources/StringUtil.swift; sourceTree = "<group>"; };
 		082CF8325A46C33353DDEDDF94B2A635 /* XmlDeclaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlDeclaration.swift; path = Sources/XmlDeclaration.swift; sourceTree = "<group>"; };
 		08EB79404A8088A145DF3243514A590F /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/Document.swift; sourceTree = "<group>"; };
@@ -254,14 +254,14 @@
 		095D2F5EFC1956A2E19EE7894C8F3F16 /* ManifestItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ManifestItem.swift; sourceTree = "<group>"; };
 		0B0BB9485737CC0A6122177D39EBEAAA /* Pods-FineEpub_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FineEpub_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0B9C857E807100AF9E558E4B5403E470 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C96AA6B905EAA9FCF0BBA72C29AB6E9 /* objective_zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = objective_zip.framework; path = "objective-zip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C96AA6B905EAA9FCF0BBA72C29AB6E9 /* objective_zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = objective_zip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA332089AD41ADF63F94EC7872F071D /* OZZipException+Internals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipException+Internals.h"; path = "Objective-Zip/OZZipException+Internals.h"; sourceTree = "<group>"; };
 		10806B74E4E3FA71345F6D113E57A1D9 /* OZFileInZipInfo+Internals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZFileInZipInfo+Internals.h"; path = "Objective-Zip/OZFileInZipInfo+Internals.h"; sourceTree = "<group>"; };
 		11B30A4088AE51BDAB163C4380348B3E /* Pods-FineEpub_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FineEpub_Tests-dummy.m"; sourceTree = "<group>"; };
 		12243744F1EB88612AAB6362E33B105F /* Pods-FineEpub_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FineEpub_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1257A5F9DBA595249DEF1420F754A15B /* Comment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = Sources/Comment.swift; sourceTree = "<group>"; };
 		1381E8C1FAFCA3218FB6A88AFB6A8E4D /* Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Token.swift; path = Sources/Token.swift; sourceTree = "<group>"; };
-		140DFE7D91A41D50EB1C5873C6EC8FEF /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = MiniZip/ioapi.c; sourceTree = "<group>"; };
+		140DFE7D91A41D50EB1C5873C6EC8FEF /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = MiniZip/ioapi.c; sourceTree = "<group>"; };
 		153A018E74B9C8D0C758F2E712A5A0C4 /* Queryable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queryable.swift; path = Sources/Queryable.swift; sourceTree = "<group>"; };
 		15C1F37D7B9660CDEFD137A9B2566110 /* NodeVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeVisitor.swift; path = Sources/NodeVisitor.swift; sourceTree = "<group>"; };
 		16C7859F63171CD375AEABDC6D1F7F3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -286,9 +286,9 @@
 		3318C6A4D2115B83E665F0A8BEC21F9A /* TokeniserState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokeniserState.swift; path = Sources/TokeniserState.swift; sourceTree = "<group>"; };
 		33EE98ADAC5ADB0CE95C1380541B2E77 /* TreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TreeBuilder.swift; path = Sources/TreeBuilder.swift; sourceTree = "<group>"; };
 		35A5A9A8F95EF0DBB62FCCBEE170E66C /* Evaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Evaluator.swift; path = Sources/Evaluator.swift; sourceTree = "<group>"; };
-		38492BC57BD140888C985518A1C45515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		38492BC57BD140888C985518A1C45515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		395AAA7E1ADE73C4E4BD0ECAE246710C /* HtmlTreeBuilderState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilderState.swift; path = Sources/HtmlTreeBuilderState.swift; sourceTree = "<group>"; };
-		3B7C05B628F6B68D6F8540D26F5E5652 /* FineEpub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FineEpub.framework; path = FineEpub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7C05B628F6B68D6F8540D26F5E5652 /* FineEpub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FineEpub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA9D843CB6DABD02CB0B70E779F25CE /* Fuzi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Fuzi.modulemap; sourceTree = "<group>"; };
 		3CCB6524B9979EA8C48FC615F40CF812 /* ArrayExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExt.swift; path = Sources/ArrayExt.swift; sourceTree = "<group>"; };
 		3D8159476DB5B6BB41DCC2BA3F99803D /* Pods-FineEpub_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FineEpub_Example-dummy.m"; sourceTree = "<group>"; };
@@ -320,10 +320,10 @@
 		5C49A1181FE22BB7E65F5C9B6F61FD2D /* NodeTraversor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeTraversor.swift; path = Sources/NodeTraversor.swift; sourceTree = "<group>"; };
 		5CF82F28234187AC56A97BA9E3A10454 /* trees.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trees.h; path = ZLib/trees.h; sourceTree = "<group>"; };
 		5F28DA380F25CBDF5D0594F73E1F5FC0 /* FineEpub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FineEpub.modulemap; sourceTree = "<group>"; };
-		60069FF8EDA09F7C8DE6404BD3405ED9 /* zutil.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zutil.c; path = ZLib/zutil.c; sourceTree = "<group>"; };
+		60069FF8EDA09F7C8DE6404BD3405ED9 /* zutil.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zutil.c; path = ZLib/zutil.c; sourceTree = "<group>"; };
 		607D68AD89B16196B4371C426413991E /* NSData+CRC32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+CRC32.h"; path = "Objective-Zip/NSData+CRC32.h"; sourceTree = "<group>"; };
 		62B9B2149099A8D6ADCE35595499FCE5 /* NSData+CRC32.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+CRC32.m"; path = "Objective-Zip/NSData+CRC32.m"; sourceTree = "<group>"; };
-		638F0C35D872E6A8EB83B14AF59F696D /* adler32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = adler32.c; path = ZLib/adler32.c; sourceTree = "<group>"; };
+		638F0C35D872E6A8EB83B14AF59F696D /* adler32.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = adler32.c; path = ZLib/adler32.c; sourceTree = "<group>"; };
 		6481D55337FD72296644FCA05ED49236 /* Whitelist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Whitelist.swift; path = Sources/Whitelist.swift; sourceTree = "<group>"; };
 		64F1660F11080D5772D7743966B9C967 /* MetadataItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MetadataItem.swift; sourceTree = "<group>"; };
 		64FB12D3694B6C0D26CED80B32748DD3 /* Pods-FineEpub_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FineEpub_Example.modulemap"; sourceTree = "<group>"; };
@@ -334,7 +334,7 @@
 		6C6B9A1FFE045E92DE4143185E73EEC5 /* SwiftSoup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSoup-dummy.m"; sourceTree = "<group>"; };
 		6D73EB3BD803689A04735E02787A3372 /* OrderedSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedSet.swift; path = Sources/OrderedSet.swift; sourceTree = "<group>"; };
 		6F47062A4818E26FBD4B2AD7372513D3 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/Helpers.swift; sourceTree = "<group>"; };
-		701BA820F0EC919F7036FFC669C35D39 /* Pods_FineEpub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FineEpub_Example.framework; path = "Pods-FineEpub_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		701BA820F0EC919F7036FFC669C35D39 /* Pods_FineEpub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FineEpub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		734B2CB3BC36F6FDA284BB57CB9FB7CD /* TextNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNode.swift; path = Sources/TextNode.swift; sourceTree = "<group>"; };
 		7E0812F3E03D641901223E9FCDE0DFFC /* OZZipWriteStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OZZipWriteStream.m; path = "Objective-Zip/OZZipWriteStream.m"; sourceTree = "<group>"; };
 		7E6637E1CFCEFC2CE83EDD9496F63E26 /* zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zlib.h; path = ZLib/zlib.h; sourceTree = "<group>"; };
@@ -346,7 +346,7 @@
 		85BA54E41897BD7CDD115D7B16F01DF9 /* Uri.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Uri.swift; sourceTree = "<group>"; };
 		876B8A306C431239D9B2C45A5B019106 /* zutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = ZLib/zutil.h; sourceTree = "<group>"; };
 		888B0CB082501689F7D77C297334FE8B /* Pods-FineEpub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FineEpub_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8A1B90E1E353AC1FB60E71EB086E1883 /* crc32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crc32.c; path = ZLib/crc32.c; sourceTree = "<group>"; };
+		8A1B90E1E353AC1FB60E71EB086E1883 /* crc32.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crc32.c; path = ZLib/crc32.c; sourceTree = "<group>"; };
 		8BFA784F85F6E35E77C952DFBA7AEBC0 /* OZZipReadStream+Internals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipReadStream+Internals.h"; path = "Objective-Zip/OZZipReadStream+Internals.h"; sourceTree = "<group>"; };
 		8C91562B92017B93EC8FFE86498FB3B6 /* Pods-FineEpub_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FineEpub_Tests.modulemap"; sourceTree = "<group>"; };
 		8D5ACDDA2B7601EEEDCF8A081872772E /* NSDate+DOSDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DOSDate.h"; path = "Objective-Zip/NSDate+DOSDate.h"; sourceTree = "<group>"; };
@@ -355,7 +355,7 @@
 		91F2FCCA4FAB5DF6BC55EF0F824FD150 /* FineEpub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FineEpub-dummy.m"; sourceTree = "<group>"; };
 		92EDC16A6321A0E1BF564162B540C629 /* Selector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Selector.swift; path = Sources/Selector.swift; sourceTree = "<group>"; };
 		939A32468AA4878CCDEFE76DDD8E6625 /* Pods-FineEpub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FineEpub_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94122E6821BD91FB9E42E81864D7BBFD /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = MiniZip/crypt.h; sourceTree = "<group>"; };
 		9523A22EA4DC2523D19E63C180032BC4 /* Manifest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Manifest.swift; sourceTree = "<group>"; };
 		968638A65D9086FC9B8E3853F20D0863 /* FormElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormElement.swift; path = Sources/FormElement.swift; sourceTree = "<group>"; };
@@ -363,20 +363,20 @@
 		96ECD8720D4C69E42CE053AC134B53CA /* Attributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attributes.swift; path = Sources/Attributes.swift; sourceTree = "<group>"; };
 		985C1AFECCC1B6D2529FAE99622B726D /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A408D2AB9E37534B9BB4BABF7B25DBD /* OZZipFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OZZipFile.m; path = "Objective-Zip/OZZipFile.m"; sourceTree = "<group>"; };
-		9DDD3097A279CA23AD146586CE1B7FD0 /* compress.c */ = {isa = PBXFileReference; includeInIndex = 1; name = compress.c; path = ZLib/compress.c; sourceTree = "<group>"; };
+		9DDD3097A279CA23AD146586CE1B7FD0 /* compress.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = compress.c; path = ZLib/compress.c; sourceTree = "<group>"; };
 		9FE413142FFB9A4BAA784370E48D1BB3 /* Pods-FineEpub_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FineEpub_Example-umbrella.h"; sourceTree = "<group>"; };
 		A01835EF51015D8766A44307D76FBB95 /* UnicodeScalar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeScalar.swift; path = Sources/UnicodeScalar.swift; sourceTree = "<group>"; };
 		A1B4A90C4AA64A3F95D8FD5AED65DB28 /* Entities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entities.swift; path = Sources/Entities.swift; sourceTree = "<group>"; };
 		A2945A70C3AD146DFBCCEDE4F05F0E0F /* OrderedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedDictionary.swift; path = Sources/OrderedDictionary.swift; sourceTree = "<group>"; };
-		A48C81DA2D99AB23E6D7AF47EE96AE47 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = MiniZip/unzip.c; sourceTree = "<group>"; };
+		A48C81DA2D99AB23E6D7AF47EE96AE47 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = MiniZip/unzip.c; sourceTree = "<group>"; };
 		A4B32631F41855B77DB58B93561B42DE /* Pods-FineEpub_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FineEpub_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A4CEF4CB206BCB883D2391ABCAD7A20F /* NavPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavPoint.swift; sourceTree = "<group>"; };
-		A5994232148CBD99FBA776C60082F750 /* infback.c */ = {isa = PBXFileReference; includeInIndex = 1; name = infback.c; path = ZLib/infback.c; sourceTree = "<group>"; };
-		A66FE37C67AB1F4DD2D4F222BCCECD1E /* gzread.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gzread.c; path = ZLib/gzread.c; sourceTree = "<group>"; };
-		AA905E42DCD6D62F6D77F39FE57AC1FE /* uncompr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = uncompr.c; path = ZLib/uncompr.c; sourceTree = "<group>"; };
+		A5994232148CBD99FBA776C60082F750 /* infback.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = infback.c; path = ZLib/infback.c; sourceTree = "<group>"; };
+		A66FE37C67AB1F4DD2D4F222BCCECD1E /* gzread.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gzread.c; path = ZLib/gzread.c; sourceTree = "<group>"; };
+		AA905E42DCD6D62F6D77F39FE57AC1FE /* uncompr.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = uncompr.c; path = ZLib/uncompr.c; sourceTree = "<group>"; };
 		ABAFAFED2DCA2F8AF0A8D56C1CA01BA1 /* Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		ACAE3A6A23AA70510E87353643F55F35 /* OZZipCompressionLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OZZipCompressionLevel.h; path = "Objective-Zip/OZZipCompressionLevel.h"; sourceTree = "<group>"; };
-		AD2CF1B5DBE38E7FF2A3439422CE2301 /* inftrees.c */ = {isa = PBXFileReference; includeInIndex = 1; name = inftrees.c; path = ZLib/inftrees.c; sourceTree = "<group>"; };
+		AD2CF1B5DBE38E7FF2A3439422CE2301 /* inftrees.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = inftrees.c; path = ZLib/inftrees.c; sourceTree = "<group>"; };
 		AF574501C81E8B71ABB7A152DC6AEA94 /* inffixed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inffixed.h; path = ZLib/inffixed.h; sourceTree = "<group>"; };
 		B13F8219EAD619D96D474EE00DA18187 /* SizeUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SizeUtil.swift; sourceTree = "<group>"; };
 		B196437FE103A555A0D130FF632A8136 /* HtmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilder.swift; path = Sources/HtmlTreeBuilder.swift; sourceTree = "<group>"; };
@@ -398,13 +398,13 @@
 		C341C3F951893A49C17FCA895C053F8C /* ResourceResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceResponse.swift; sourceTree = "<group>"; };
 		C37D7AD172953118316EED2D01ECCB14 /* zconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zconf.h; path = ZLib/zconf.h; sourceTree = "<group>"; };
 		C4FC1BBDBE06B9DDE71B75A268C2A280 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = MiniZip/ioapi.h; sourceTree = "<group>"; };
-		C78C23C9015CB6525C7C10CA0B8AD724 /* gzwrite.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gzwrite.c; path = ZLib/gzwrite.c; sourceTree = "<group>"; };
+		C78C23C9015CB6525C7C10CA0B8AD724 /* gzwrite.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gzwrite.c; path = ZLib/gzwrite.c; sourceTree = "<group>"; };
 		CBA41EF43B36755F9FA92E620CB89898 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
 		CBF1E2993EE188483A73EEFFBDC27034 /* DocumentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocumentType.swift; path = Sources/DocumentType.swift; sourceTree = "<group>"; };
 		CCE7B9DDCE93F11F13D1578960CD30DA /* ResourceUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceUtil.swift; sourceTree = "<group>"; };
 		CE65F8AE752FEF65460ABCDA8414A41F /* XmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlTreeBuilder.swift; path = Sources/XmlTreeBuilder.swift; sourceTree = "<group>"; };
 		CF09FFA84A4572028485A3927043F215 /* BooleanAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanAttribute.swift; path = Sources/BooleanAttribute.swift; sourceTree = "<group>"; };
-		D23C2816585E71044BC798C6B804CFB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D23C2816585E71044BC798C6B804CFB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D2E384B2E73A2D35B6D9DC81C86946DA /* TokenQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenQueue.swift; path = Sources/TokenQueue.swift; sourceTree = "<group>"; };
 		D31C036705BCBE1531DF740F89136EDA /* StreamReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = Sources/StreamReader.swift; sourceTree = "<group>"; };
 		D5707A3BCD5D8FD59A978AD82EFA628B /* Cleaner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cleaner.swift; path = Sources/Cleaner.swift; sourceTree = "<group>"; };
@@ -413,15 +413,15 @@
 		DC1C296DE89F926A0502AB7CD49BE370 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = MiniZip/zip.h; sourceTree = "<group>"; };
 		DC6DCACB6137A8C9852E1A5368470200 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Sources/Attribute.swift; sourceTree = "<group>"; };
 		DCAE1A5698C31946CEF90C7BFC5119F6 /* FineEpub.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FineEpub.xcconfig; sourceTree = "<group>"; };
-		DEC0C1A20DE097D55D68C753DE9A506E /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSoup.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3BA80C148717616D809168F9F9ECD3 /* trees.c */ = {isa = PBXFileReference; includeInIndex = 1; name = trees.c; path = ZLib/trees.c; sourceTree = "<group>"; };
+		DEC0C1A20DE097D55D68C753DE9A506E /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3BA80C148717616D809168F9F9ECD3 /* trees.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = trees.c; path = ZLib/trees.c; sourceTree = "<group>"; };
 		E03514FF7C341D3389BB2EA2BC1238CE /* OZFileInZipInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OZFileInZipInfo.m; path = "Objective-Zip/OZFileInZipInfo.m"; sourceTree = "<group>"; };
-		E0797F8A97A954E9513DFD71A4C0AE74 /* deflate.c */ = {isa = PBXFileReference; includeInIndex = 1; name = deflate.c; path = ZLib/deflate.c; sourceTree = "<group>"; };
-		E273A9FECEBCE0A17B45599E77E4D7FE /* Pods_FineEpub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FineEpub_Tests.framework; path = "Pods-FineEpub_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0797F8A97A954E9513DFD71A4C0AE74 /* deflate.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = deflate.c; path = ZLib/deflate.c; sourceTree = "<group>"; };
+		E273A9FECEBCE0A17B45599E77E4D7FE /* Pods_FineEpub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FineEpub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F3CBFB4613FCADBE79A34AD9A8FDEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E33CC4C86B1BBC966011C3EE78515D5D /* Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validate.swift; path = Sources/Validate.swift; sourceTree = "<group>"; };
 		E3981F5F45E8204E02291FBAA180622A /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
-		E3F579A2CC563479289D5E643AF73148 /* inflate.c */ = {isa = PBXFileReference; includeInIndex = 1; name = inflate.c; path = ZLib/inflate.c; sourceTree = "<group>"; };
+		E3F579A2CC563479289D5E643AF73148 /* inflate.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = inflate.c; path = ZLib/inflate.c; sourceTree = "<group>"; };
 		E575DD44164530821BF1D50B956464CF /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/String.swift; sourceTree = "<group>"; };
 		E64102E6EF09E6A6D86FD76228B97021 /* SwiftSoup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-umbrella.h"; sourceTree = "<group>"; };
 		E656839AB4A6707416030BA7A5C2BBE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -433,15 +433,15 @@
 		F098225FC2A588A07E9509FABF342C57 /* Objective-Zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Objective-Zip.h"; path = "Objective-Zip/Objective-Zip.h"; sourceTree = "<group>"; };
 		F1150F284FE867D0FC05709C25576CA7 /* SimpleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleDictionary.swift; path = Sources/SimpleDictionary.swift; sourceTree = "<group>"; };
 		F24302135310534DF751466B457067BF /* Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Sources/Pattern.swift; sourceTree = "<group>"; };
-		F3BF9BE6A2C38B45790E6CE87C5A0597 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zip.c; path = MiniZip/zip.c; sourceTree = "<group>"; };
+		F3BF9BE6A2C38B45790E6CE87C5A0597 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zip.c; path = MiniZip/zip.c; sourceTree = "<group>"; };
 		F52CA0A72DF7ABBF44EC8E7CD803C5CD /* StringBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringBuilder.swift; path = Sources/StringBuilder.swift; sourceTree = "<group>"; };
-		F599CAC131461034517A1B62A9F41D17 /* FineEpub.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FineEpub.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F599CAC131461034517A1B62A9F41D17 /* FineEpub.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FineEpub.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F7B8E3C92A207AA4A079436E1196A14D /* OZZipWriteStream+Standard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipWriteStream+Standard.h"; path = "Objective-Zip/OZZipWriteStream+Standard.h"; sourceTree = "<group>"; };
 		F98C172B90365BEF0B3E988594427EDD /* JSWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSWebView.swift; sourceTree = "<group>"; };
 		F9BFFE5DD0550A3317B0F58D1DD707D9 /* HrefResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrefResolver.swift; sourceTree = "<group>"; };
 		FCD6A033D8EEE94E8F40227E1824EEC8 /* OZZipException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OZZipException.m; path = "Objective-Zip/OZZipException.m"; sourceTree = "<group>"; };
 		FE3A6801342E4B1FBCD766F1D2615F85 /* CharacterReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterReader.swift; path = Sources/CharacterReader.swift; sourceTree = "<group>"; };
-		FFDA810490587CBC602720C8CDA50CC2 /* crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypt.c; path = MiniZip/crypt.c; sourceTree = "<group>"; };
+		FFDA810490587CBC602720C8CDA50CC2 /* crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypt.c; path = MiniZip/crypt.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -659,7 +659,6 @@
 				876B8A306C431239D9B2C45A5B019106 /* zutil.h */,
 				4BEE1AF471827EE2515FF9651A949036 /* Support Files */,
 			);
-			name = "objective-zip";
 			path = "objective-zip";
 			sourceTree = "<group>";
 		};
@@ -787,7 +786,6 @@
 				CE65F8AE752FEF65460ABCDA8414A41F /* XmlTreeBuilder.swift */,
 				F2E2543F4351D3A5D77AAF751DFAB811 /* Support Files */,
 			);
-			name = SwiftSoup;
 			path = SwiftSoup;
 			sourceTree = "<group>";
 		};
@@ -852,7 +850,6 @@
 				153A018E74B9C8D0C758F2E712A5A0C4 /* Queryable.swift */,
 				17A3430D64CFCA97C89BFB3C1EB60A6E /* Support Files */,
 			);
-			name = Fuzi;
 			path = Fuzi;
 			sourceTree = "<group>";
 		};

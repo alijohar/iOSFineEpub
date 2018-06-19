@@ -15,21 +15,24 @@ public class Uri: NSObject {
     var path: String
     
     public init(withHost host: String, scheme: String, port: Int, path: String) {
-        self.host = host;
-        self.scheme = scheme;
-        self.path = path.removingPercentEncoding!
-        self.port = port;
+        self.host = host
+        self.scheme = scheme
+        
+        // the removingPercentEncoding wont remove space sign so i have to remove it manually
+        self.path = path.removingPercentEncoding!.replacingOccurrences(of: "%20", with: " ")
+        self.port = port
         
         self.uri = String(format: "%@://%@:%d/%@", self.scheme, self.host, self.port, self.path)
     }
     
     public init(withUri uri: String) {
-        self.host = "localhost";
-        self.scheme = "http";
-        self.port = 1049;
+        self.host = "localhost"
+        self.scheme = "http"
+        self.port = 1049
         self.path = ""
         
-        self.uri = uri.removingPercentEncoding!
+        // the removingPercentEncoding wont remove space sign so i have to remove it manually
+        self.uri = uri.removingPercentEncoding!.replacingOccurrences(of: "%20", with: " ")
     }
     
     public func getPath() -> String? {

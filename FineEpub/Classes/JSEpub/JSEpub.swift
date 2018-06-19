@@ -45,9 +45,11 @@ public class JSEpub: Book {
             return ""
         }
         
-        let data = super.fetchFromZip(address)
+        guard let data = super.fetchFromZip(address) else {
+            return ""
+        }
         
-        return injectJsStyle(String(data: data!, encoding: String.Encoding.utf8)!, classes: classes)
+        return injectJsStyle(String(data: data, encoding: String.Encoding.utf8)!, classes: classes)
     }
     
     public func getBookSize() -> Int {

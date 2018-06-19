@@ -30,7 +30,7 @@ public class Manifest: NSObject {
     }
     
     public func find(byResourceName resourceName: String) -> ManifestItem? {
-        for i in 0...items.count {
+        for i in 0...(items.count - 1) {
             let item = items[i]
             if resourceName == item.href {
                 return item
