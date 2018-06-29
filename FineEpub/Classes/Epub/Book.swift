@@ -358,11 +358,10 @@ public class Book: NSObject {
     }
     
     public func getResourceNumber(_ resource: Uri) -> Int {
-        var resourceName = Book.url2ResourceName(resource)
-        resourceName = resourceName?.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
-        for i in 0...spine.count {
+        let resourceName = Book.url2ResourceName(resource)
+        for i in 0...(spine.count - 1) {
             if resourceName == spine[i].href {
-                return 1
+                return i
             }
         }
         

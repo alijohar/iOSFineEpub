@@ -13,8 +13,8 @@ public class NavPoint: NSObject {
     public var content:String
     
     public init(WithPlayOrder playOrder: String?, navLabel: String, content:String) {
-        self.navLabel = ""
-        self.content = ""
+        self.navLabel = navLabel
+        self.content = content
         
         if playOrder != nil {
             self.playOrder = 2000

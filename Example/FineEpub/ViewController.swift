@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         let book = JSEpub(withBookPath: path!)
         
         print(book.getBookName())
+        
+        for nav in book.tableOfContents.navPoints {
+            print(nav.navLabel)
+        }
     }
 
     override func didReceiveMemoryWarning() {

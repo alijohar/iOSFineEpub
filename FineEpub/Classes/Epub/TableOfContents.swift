@@ -65,7 +65,9 @@ public class TableOfContents: NSObject {
     
     public func parseNavPoint(_ navPointElement: XMLElement) {
         let navLabel = navPointElement.firstChild(tag: XML_ELEMENT_NAVLABEL)
-        let text = navLabel?.firstChild(tag: XML_ELEMENT_TEXT)
+        
+        let text = navLabel?.children[0]
+
         let content = navPointElement.firstChild(tag: XML_ELEMENT_CONTENT)
         
         guard let navLabelText = text?.stringValue,
