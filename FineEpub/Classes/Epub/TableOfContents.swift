@@ -20,6 +20,7 @@ public class TableOfContents: NSObject {
     private let XML_ATTRIBUTE_SCR = "src"
     
     public private(set) var navPoints: [NavPoint]
+    public private(set) var navTree: Node<NavPoint>?
     
     private let currentDepth = 0
     private let supportedDepth = 1
@@ -55,15 +56,20 @@ public class TableOfContents: NSObject {
         
         let navMap = root.firstChild(tag: XML_ELEMENT_NAVMAP)
         guard let navPoints = navMap?.children(tag: XML_ELEMENT_NAVPOINT) else {
-                                                return
+            return
         }
         
         for navPoint in navPoints {
-            parseNavPoint(navPoint)
+            if let nav = parseNavPoint(navPoint) {
+                add(nav)
+            }
         }
+        
+        navTree = Node<NavPoint>()
+        findChilds(treeRoot: navTree!, childs: navPoints)
     }
     
-    public func parseNavPoint(_ navPointElement: XMLElement) {
+    public func parseNavPoint(_ navPointElement: XMLElement) -> NavPoint? {
         let navLabel = navPointElement.firstChild(tag: XML_ELEMENT_NAVLABEL)
         
         let text = navLabel?.children[0]
@@ -72,7 +78,7 @@ public class TableOfContents: NSObject {
         
         guard let navLabelText = text?.stringValue,
             let contentSrc = content?.attr(XML_ATTRIBUTE_SCR) else {
-                return
+                return nil
         }
         
         let playOrder = navPointElement.attr(XML_ATTRIBUTE_PLAYORDER)
@@ -81,6 +87,64 @@ public class TableOfContents: NSObject {
                                 navLabel: navLabelText,
                                 content: (hrefResolver?.ToAbsolute(contentSrc))!)
         
-        add(navPoint)
+        return navPoint
     }
+    
+    private func findChilds(treeRoot: Node<NavPoint>, childs: [XMLElement]) {
+        for child in childs {
+            if let parsedChild = parseNavPoint(child) {
+                let childNode = Node<NavPoint>(data: parsedChild)
+                treeRoot.addChild(child: childNode)
+                
+                let childChilds = child.children(tag: XML_ELEMENT_NAVPOINT)
+                if childChilds.count > 0 {
+                    findChilds(treeRoot: childNode,
+                               childs: childChilds)
+                }
+            }
+        }
+    }
+    
+    
+    
+//    private func parseNavTree(navRoot: XMLElement, treeRoot: Node<NavPoint>) -> Node<NavPoint> {
+//        guard let parsedRoot = parseNavPoint(navRoot) else {
+//            return treeRoot
+//        }
+//
+//        let navChilds = navRoot.children(tag: XML_ELEMENT_NAVPOINT)
+//        if navChilds.count == 0 {
+//            // this is leaf
+//            treeRoot.addChild(data: parsedRoot)
+//        } else {
+//            for ch in navChilds {
+//                treeRoot.addChild(child: parseNavTree(navRoot: <#T##XMLElement#>, treeRoot: <#T##Node<NavPoint>#>))
+//            }
+//        }
+//        return treeRoot
+//    }
+    
+    
+    
+//    public func getNavTree() -> [Node<NavPoint>] {
+//        if let navTree = navTree {
+//            return navTree
+//        }
+//
+//        navTree = [Node<NavPoint>]()
+//
+//        for nav in navPoints {
+//            if (nav.getDepth() == 0) {
+//    // it is top level
+//    navTree.add(new Node<NavPoint>(nav));
+//    } else {
+//    int parentPlayOrder = nav.getDepth();
+//    Node<NavPoint> parent = getLastElementWithPlayOrder(navTree.get(navTree.size() - 1),
+//    parentPlayOrder);
+//    parent.addChild(nav);
+//    }
+//    }
+//
+//    return navTree;
+//    }
 }

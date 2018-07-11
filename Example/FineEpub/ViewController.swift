@@ -20,8 +20,27 @@ class ViewController: UIViewController {
         
         print(book.getBookName())
         
-        for nav in book.tableOfContents.navPoints {
-            print(nav.navLabel)
+//        for nav in book.tableOfContents.navPoints {
+//            print(nav.navLabel)
+//        }
+        print("nav point count: \(book.tableOfContents.navPoints.count)")
+        print("nav tree count: \(book.tableOfContents.navTree!.children.count)")
+        
+        traverseTree(root: book.tableOfContents.navTree!, depth: 0)
+        
+        
+    }
+    
+    func traverseTree(root: Node<NavPoint>, depth: Int) {
+    
+        let intent = depth * 4;
+        let space = String(repeating: " ", count: intent)
+        print("\(space) \(root.data?.content ?? "")")
+    
+        if root.children.count > 0 {
+            for child in root.children {
+                traverseTree(root: child, depth: depth + 1)
+            }
         }
     }
 

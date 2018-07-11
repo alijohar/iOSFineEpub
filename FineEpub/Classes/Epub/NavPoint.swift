@@ -38,5 +38,9 @@ public class NavPoint: NSObject {
         
         return Uri(withHost: "localhost", scheme: "http", port: 1049, path: encodedResourceName!)
     }
+    
+    public func toString() -> String {
+        return "playOrder: \(playOrder), navLabel: \(navLabel), content: \(content)"
+    }
 }
 

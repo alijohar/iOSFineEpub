@@ -160,6 +160,7 @@
 		E2F1E3D3C573C638CF04ED93900670F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B3C8905153B2AB3217ACBDCAD5F2E /* Constants.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E45A3C2F8185BC852FA639A48CF3CE7D /* OZZipReadStream+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFA784F85F6E35E77C952DFBA7AEBC0 /* OZZipReadStream+Internals.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E5532E8EF4AE35DF4734D50687FD32E3 /* OZZipWriteStream+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B0DA8685CB918501822861926B77B3 /* OZZipWriteStream+NSError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5EE5B6620F616FF0039F356 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE5B6520F616FF0039F356 /* Node.swift */; };
 		E86B7461516A6739746408D0FCE3AB53 /* Objective-Zip.h in Headers */ = {isa = PBXBuildFile; fileRef = F098225FC2A588A07E9509FABF342C57 /* Objective-Zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8C8E9D72A68F9F84542C8D27FB833A5 /* NodeTraversor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49A1181FE22BB7E65F5C9B6F61FD2D /* NodeTraversor.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EA668E217D723381D0CB19FAA05A1146 /* SizeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13F8219EAD619D96D474EE00DA18187 /* SizeUtil.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -423,6 +424,7 @@
 		E3981F5F45E8204E02291FBAA180622A /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
 		E3F579A2CC563479289D5E643AF73148 /* inflate.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = inflate.c; path = ZLib/inflate.c; sourceTree = "<group>"; };
 		E575DD44164530821BF1D50B956464CF /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/String.swift; sourceTree = "<group>"; };
+		E5EE5B6520F616FF0039F356 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		E64102E6EF09E6A6D86FD76228B97021 /* SwiftSoup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-umbrella.h"; sourceTree = "<group>"; };
 		E656839AB4A6707416030BA7A5C2BBE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E86D32CA35AD4943C5C0F20D348CC2FA /* FineEpub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FineEpub-umbrella.h"; sourceTree = "<group>"; };
@@ -668,6 +670,7 @@
 				C21B3C8905153B2AB3217ACBDCAD5F2E /* Constants.swift */,
 				C341C3F951893A49C17FCA895C053F8C /* ResourceResponse.swift */,
 				85BA54E41897BD7CDD115D7B16F01DF9 /* Uri.swift */,
+				E5EE5B6520F616FF0039F356 /* Node.swift */,
 			);
 			name = Models;
 			path = FineEpub/Classes/Models;
@@ -1273,6 +1276,7 @@
 				CA7FA2621470BAFC5D33F731BE69F14C /* JSEpub.swift in Sources */,
 				864D05F373267A819DC32DDE0481F1E1 /* JSEpubCache.swift in Sources */,
 				DF740DDA545FD7732F530C3B3CDA119D /* JSWebView.swift in Sources */,
+				E5EE5B6620F616FF0039F356 /* Node.swift in Sources */,
 				7D4E1566B2AEEB9F69F237A1A51C83DC /* Manifest.swift in Sources */,
 				D2B12D619563A2A573862702D0575175 /* ManifestItem.swift in Sources */,
 				B2A6FBC519EEF5BFCC1594F7AE8CC8E9 /* Metadata.swift in Sources */,
