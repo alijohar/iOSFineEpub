@@ -40,8 +40,8 @@ s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => "$(SDKROOT)/usr/include/libxm
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'Fuzi', '~> 2.0.2'
+  # s.dependency 'AFNetworking', '~> 3.2.1'
+  s.dependency 'Fuzi', '~> 3.1.1'
   s.dependency 'objective-zip', '~> 1.0.5'
   s.dependency 'SwiftSoup'
 end
