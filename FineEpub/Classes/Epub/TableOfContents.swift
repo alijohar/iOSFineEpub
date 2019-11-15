@@ -20,6 +20,7 @@ public class TableOfContents: NSObject {
     private let XML_ATTRIBUTE_SCR = "src"
     
     public private(set) var navPoints: [NavPoint]
+    public private(set) var unFoldedNavPoints: [NavPoint]
     public private(set) var navTree: Node<NavPoint>?
     
     private let currentDepth = 0
@@ -28,6 +29,7 @@ public class TableOfContents: NSObject {
     
     public override init() {
         navPoints = [NavPoint]()
+        unFoldedNavPoints = [NavPoint]()
     }
     
     public func add(_ navPoint: NavPoint) {
@@ -95,7 +97,7 @@ public class TableOfContents: NSObject {
             if let parsedChild = parseNavPoint(child) {
                 let childNode = Node<NavPoint>(data: parsedChild)
                 treeRoot.addChild(child: childNode)
-                
+                unFoldedNavPoints.append(parsedChild)
                 let childChilds = child.children(tag: XML_ELEMENT_NAVPOINT)
                 if childChilds.count > 0 {
                     findChilds(treeRoot: childNode,
@@ -104,7 +106,6 @@ public class TableOfContents: NSObject {
             }
         }
     }
-    
     
     
 //    private func parseNavTree(navRoot: XMLElement, treeRoot: Node<NavPoint>) -> Node<NavPoint> {

@@ -1,4 +1,4 @@
-// Error.swift
+// Fuzi.h
 // Copyright (c) 2015 Ce Zheng
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -19,31 +19,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import Foundation
-import libxml2
+#import <Foundation/Foundation.h>
 
-/**
-*  XMLError enumeration.
-*/
-public enum XMLError: Error {
-  /// No error
-  case noError
-  /// Contains a libxml2 error with error code and message
-  case libXMLError(code: Int, message: String)
-  /// Failed to convert String to bytes using given string encoding
-  case invalidData
-  /// XML Parser failed to parse the document
-  case parserFailure
-  /// XPath has either syntax error or some unknown/unsupported function
-  case xpathError(code: Int)
-  
-  internal static func lastError(defaultError: XMLError = .noError) -> XMLError {
-    guard let errorPtr = xmlGetLastError() else {
-      return defaultError
-    }
-    let message = (^-^errorPtr.pointee.message)?.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
-    let code = Int(errorPtr.pointee.code)
-    xmlResetError(errorPtr)
-    return .libXMLError(code: code, message: message ?? "")
-  }
-}
+//! Project version number for Fuzi.
+FOUNDATION_EXPORT double FuziVersionNumber;
+
+//! Project version string for Fuzi.
+FOUNDATION_EXPORT const unsigned char FuziVersionString[];
