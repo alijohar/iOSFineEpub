@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'FineEpub'
 ```
 
-## Author
-
-mehdok, mehdokwebmaster@gmail.com
-
 ## License
 
 FineEpub is available under the MIT license. See the LICENSE file for more info.
